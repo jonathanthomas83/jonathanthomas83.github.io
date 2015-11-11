@@ -5,8 +5,6 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-//"base",
-//"layout",
         "device-pixels",
         "url-helpers",
         "colours",
@@ -63,19 +61,67 @@ body { margin: 0; }
     }
 }
 
+
+$header-background-colour: #5D5D5D;
+$header-title-colour: #BCBBBB;
+$header-subtitle-colour: #C785AE;
+
 /**
  * Header
  */
 header.site-header {
-  padding: $gutter-half;
-  background-color: $grey-3;
+  min-height: 380px;
+  position: relative;
+  padding: 1px 0;
+  background-color: $header-background-colour;
+  height:100vh;
+  text-align: center;
   a.site-title {
-    color: #0099CC;
-    font-family: $heading-family;
-    @include bold-80;
+    @include core-100;
+    line-height: 0.87em;
+    display: block;
+    margin: 30vh 0 0;
+    color: $header-title-colour;
+    font-family: $title-family;
     text-decoration: none;
+
+    //display: inline-block;
+    //-webkit-box-sizing: content-box;
+      //-moz-box-sizing: content-box;
+      //box-sizing: content-box;
+      //border: none;
+      //font: normal 70px/1 "Aladin", Helvetica, sans-serif;
+      //color: rgba(48,48,48,1);
+      //text-align: center;
+      text-transform: normal;
+      //-o-text-overflow: clip;
+      //text-overflow: clip;
+      //white-space: pre;
+      text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
     &:hover {
-      text-decoration: underline;
+      //text-decoration: underline;
+    }
+  }
+  p.subtitle {
+    color: $header-subtitle-colour;
+    @include core-36;
+    font-weight: 300;
+  }
+  nav.nav-skip {
+    position: absolute;
+    bottom: $gutter-two-thirds;
+    display: block;
+    width: 100%;
+    a {
+      text-align: center;
+      color: $white;
+      text-decoration: none;
+      @include core-19;
+      font-weight: 300;
+      color: $white;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
