@@ -1,0 +1,19 @@
+/**
+ * Header
+ */
+footer {
+  background-color: $dark-turquoise;
+  border-top: 20px solid $light-turquoise;
+  color: $white;
+  .content {
+    padding: 0 0 $gutter 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  a {
+    font-weight: bold;
+    color: $navy;
+  }
+}
