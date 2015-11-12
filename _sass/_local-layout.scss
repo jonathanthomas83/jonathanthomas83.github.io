@@ -1,7 +1,10 @@
 body { margin: 0; }
 
-#page-container {
+#page-container, footer .content {
   @extend %site-width-container;
+}
+#page-container {
+  padding-bottom: $gutter*3;
 }
 
 .grid-row {
