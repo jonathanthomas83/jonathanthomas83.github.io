@@ -9,7 +9,7 @@ header.site-header {
   height:100vh;
   text-align: center;
   a.site-title {
-    @include core-100;
+    @include core-90;
     line-height: 0.87em;
     display: block;
     margin: 30vh 0 0;
@@ -41,7 +41,10 @@ header.site-header {
   }
   nav.nav-skip {
     position: absolute;
-    bottom: $gutter*1.5;
+    bottom: $gutter*2;
+    @include media(tablet) {
+     bottom: $gutter-two-thirds;
+    }
     display: block;
     width: 100%;
     a {
