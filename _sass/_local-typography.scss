@@ -299,7 +299,7 @@ hr {
 
 @mixin core-100($line-height: (80 / 80), $line-height-640: (55 / 53), $tabular-numbers: false, $font-weight: 400) {
   $font-size: 100px;
-  $font-size-640: 96px;
+  $font-size-640: 90px;
   $font-size-print: 28pt;
   @include _core-font-generator($font-size, $font-size-640, $font-size-print, $line-height, $line-height-640, $tabular-numbers, $font-weight);
 }
