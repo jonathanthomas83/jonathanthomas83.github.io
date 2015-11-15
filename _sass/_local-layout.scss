@@ -1,6 +1,6 @@
 body { margin: 0; }
 
-#page-container, footer .content {
+#page-container, footer .content, nav.site-nav, header .wrapper {
   @extend %site-width-container;
 }
 #page-container {
