@@ -1,62 +1,91 @@
 /**
  * Header
  */
-header.site-header {
-  min-height: 380px;
-  position: relative;
-  padding: 1px 0;
+@mixin header {
   background-color: $header-background-colour;
-  height:100vh;
-  text-align: center;
-  a.site-title {
-    @include core-100;
-    line-height: 0.87em;
-    display: block;
-    margin: 30vh 0 0;
-    color: $header-title-colour;
-    font-family: $title-family;
-    text-decoration: none;
+}
 
-    //display: inline-block;
-    //-webkit-box-sizing: content-box;
-      //-moz-box-sizing: content-box;
-      //box-sizing: content-box;
-      //border: none;
-      //font: normal 70px/1 "Aladin", Helvetica, sans-serif;
-      //color: rgba(48,48,48,1);
-      //text-align: center;
-    text-transform: normal;
-      //-o-text-overflow: clip;
-      //text-overflow: clip;
-      //white-space: pre;
-    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+@mixin site-title {
+  color: $header-title-colour;
+  font-family: $title-family;
+  text-decoration: none;
+  display: block;
+  text-transform: normal;
+  text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67);
+}
+
+@mixin subtitle {
+  color: $header-subtitle-colour;
+  font-weight: 300;
+}
+
+@mixin nav-skip-link {
+  a {
+    text-decoration: none;
+    @include core-19;
+    font-weight: 300;
+    color: $white;
     &:hover {
-      //text-decoration: underline;
+      text-decoration: underline;
     }
   }
-  p.subtitle {
-    color: $header-subtitle-colour;
+}
+
+header.site-header {
+  @include header;
+  padding: $gutter-one-third 0;
+  a.site-title {
+    @include site-title;
     @include core-36;
-    font-weight: 300;
   }
   nav.nav-skip {
-    position: absolute;
-    bottom: $gutter*3;
+    float: right;
     @include media(tablet) {
-     bottom: $gutter-two-thirds;
+     display: none;
     }
-    display: block;
-    width: 100%;
-    a {
-      text-align: center;
-      color: $white;
-      text-decoration: none;
-      @include core-19;
-      font-weight: 300;
-      color: $white;
-      &:hover {
-        text-decoration: underline;
+    @include nav-skip-link;
+  }
+  p.subtitle {
+    @include subtitle;
+    @include core-19;
+  }
+}
+
+#homepage {
+  header.site-header {
+    @include header;
+
+    background: url(/images/retrospective.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    min-height: 470px;
+    position: relative;
+    padding: 1px 0;
+    height:100vh;
+    text-align: center;
+
+    a.site-title {
+      @include site-title;
+      @include core-100;
+      line-height: 0.87em;
+      margin: 30vh 0 0;
+    }
+    p.subtitle {
+      @include subtitle;
+      @include core-36;
+    }
+    nav.nav-skip {
+      position: absolute;
+      bottom: $gutter*3;
+      display: block;
+      width: 100%;
+      @include media(tablet) {
+       bottom: $gutter-two-thirds;
       }
+      @include nav-skip-link;
     }
   }
 }

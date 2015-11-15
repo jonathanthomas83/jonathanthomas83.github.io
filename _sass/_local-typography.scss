@@ -11,7 +11,7 @@ $title-family: 'Playball', cursive;
 $heading-family: 'Montserrat', sans-serif;
 $regular-family: 'Raleway', sans-serif;
 
-main, header, footer {
+main, header, footer, nav {
   @include core-19;
   font-family: $regular-family;
   font-weight: 300;

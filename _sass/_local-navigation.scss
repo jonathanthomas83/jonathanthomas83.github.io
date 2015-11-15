@@ -1,0 +1,31 @@
+/**
+ * Header
+ */
+@mixin site-nav {
+  display: block;
+}
+nav.site-nav {
+  display: none;
+
+  @include media(tablet) {
+   @include site-nav;
+   @include core-19;
+   padding: $gutter-one-third 0;
+  }
+}
+#homepage {
+  nav.site-nav {
+    @include site-nav;
+    padding: $gutter 0;
+    @include core-24;
+    @include media(tablet) {
+     height: auto;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    a {
+    }
+  }
+}

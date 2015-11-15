@@ -7,13 +7,13 @@
 
 # Site settings
 title: Jonathan Thomas
-email: your-email@domain.com
+email: info@jonathanpthomas.com
 description: > # this means to ignore newlines until "baseurl:"
   Jonathan Thomas is a UX designer based in South Wales.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: jonthomas83
+github_username:  jonathanthomas83
 
 # Build settings
 markdown: kramdown
