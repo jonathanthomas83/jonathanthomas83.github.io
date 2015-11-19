@@ -19,3 +19,11 @@ github_username:  jonathanthomas83
 markdown: kramdown
 highlighter: rouge
 encoding: utf-8
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+    defaults:
+      values: 
+        layout: post
