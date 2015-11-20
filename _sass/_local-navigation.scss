@@ -3,21 +3,34 @@
  */
 @mixin site-nav {
   display: block;
+  font-weight: 300;
 }
 nav.site-nav {
   display: none;
+  border-bottom: 1px solid #EFEFEF;
 
   @include media(tablet) {
    @include site-nav;
-   @include core-19;
-   padding: $gutter-one-third 0;
+   @include core-24;
+   font-weight: 200;
+   padding: $gutter-half 0;
+  }
+  a {
+    margin: 0 $gutter-half 0 0;
+    color: $dark-grey;
+    text-decoration: none;
+    &:hover {
+      color: $navy;
+      border-bottom: 1px solid $light-grey;
+    }
   }
 }
 #homepage {
   nav.site-nav {
     @include site-nav;
     padding: $gutter 0;
-    @include core-24;
+    @include core-36;
+    font-weight: 100;
     @include media(tablet) {
      height: auto;
     }
@@ -26,6 +39,7 @@ nav.site-nav {
       padding: 0;
     }
     a {
+      margin: 0 $gutter 0 0;
     }
   }
 }

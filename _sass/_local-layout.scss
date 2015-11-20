@@ -1,4 +1,7 @@
-body { margin: 0; }
+body {
+  margin: 0;
+  background-color: $extra-light-grey;
+}
 
 #page-container, footer .content, nav.site-nav, header .wrapper {
   @extend %site-width-container;
