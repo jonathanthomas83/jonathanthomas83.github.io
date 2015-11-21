@@ -49,17 +49,27 @@ nav.site-nav {
   nav.site-nav {
     @include site-nav;
     padding: $gutter 0;
-    @include core-36;
+    @include core-48;
     font-weight: 100;
     @include media(tablet) {
      height: auto;
     }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
     a {
       margin: 0 $gutter 0 0;
+      display: block;
+      border-bottom: none;
+      &:hover {
+        color: $navy;
+        @include media(tablet) {
+          @include border;
+        }
+      }
+      @include media(tablet) {
+        display: inline;
+      }
+    }
+    .back-to-top {
+      display: none;
     }
   }
 }

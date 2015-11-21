@@ -5,10 +5,10 @@
 });*/
 
 $(".skiplink").click(function() {
-    event.preventDefault();
+    //event.preventDefault();
     $('#site-nav').show();
 });
 $(".back-to-top").click(function() {
-    event.preventDefault();
+    //event.preventDefault();
     $('#site-nav').hide();
 });
