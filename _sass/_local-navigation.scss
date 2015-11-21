@@ -7,6 +7,7 @@
 }
 nav.site-nav {
   display: none;
+  padding: $gutter-one-third 0;
   border-bottom: 1px solid #EFEFEF;
 
   @include media(tablet) {
@@ -22,6 +23,25 @@ nav.site-nav {
     &:hover {
       color: $navy;
       @include border;
+    }
+  }
+  .back-to-top {
+    float: right;
+    margin-right: 0;
+    background-color: $light-grey;
+    color: $white;
+    display: block;
+    padding: 1px 8px 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    &:hover {
+      color: $white;
+      background-color: $dark-grey;
+      border-bottom: none;
+    }
+    @include media(tablet) {
+     display: none;
     }
   }
 }

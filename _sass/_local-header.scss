@@ -9,7 +9,6 @@
   color: $header-title-colour;
   font-family: $title-family;
   text-decoration: none;
-  display: block;
   text-transform: normal;
   text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67);
 }
@@ -79,6 +78,7 @@ header.site-header {
       @include core-100;
       line-height: 0.87em;
       margin: 30vh 0 0;
+      display: block;
     }
     span.strap {
       display: none;
