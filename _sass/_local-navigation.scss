@@ -21,7 +21,7 @@ nav.site-nav {
     text-decoration: none;
     &:hover {
       color: $navy;
-      border-bottom: 1px solid $light-grey;
+      @include border;
     }
   }
 }

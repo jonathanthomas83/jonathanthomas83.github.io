@@ -1,3 +1,7 @@
 abbr {
   border-bottom: 1px dotted $dark-grey;
 }
+
+@mixin border {
+  border-bottom: 1px solid $light-grey;
+}
