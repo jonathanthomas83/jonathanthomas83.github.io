@@ -1,12 +1,12 @@
 ---
-title:  "Companies House search and filing service"
-short-title: "Companies House search"
-organisation: "Companies House"
-date: 2015-04-01 00:00:00 +0000
-timescale: "March 2013 &mdash; April 2015"
+title:  "Staff facing administration workflow"
+short-title: "IPO admin system"
+organisation: "Intellectual Property Office"
+date: 2015-01-12 00:00:00 +0000
+timescale: "April 2015 &mdash; December 2015"
 layout: page
-image_project: "companies-house-search"
-main_image: "CHS-mobile-2"
+image_project: "ipo-admin"
+main_image: "workshop-1"
 categories: jekyll update
 ---
 Helloooooo!!""

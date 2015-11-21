@@ -1,4 +1,4 @@
-<header class="site-header">
+<header class="site-header" id="head">
 
   <nav class="nav-skip">
     <a href="#site-nav" class="skiplink">
@@ -8,7 +8,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}<span class="strap"> UX designer</span></a>
     <span class="subtitle">User Experience designer</span>
 
   </div>
@@ -21,4 +21,5 @@
     <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
     {% endif %}
   {% endfor %}
+  <a href="#head" class="back-to-top">&#8593;</a>
 </nav>

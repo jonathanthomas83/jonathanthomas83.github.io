@@ -7,6 +7,7 @@
 }
 nav.site-nav {
   display: none;
+  padding: $gutter-one-third 0;
   border-bottom: 1px solid #EFEFEF;
 
   @include media(tablet) {
@@ -21,7 +22,26 @@ nav.site-nav {
     text-decoration: none;
     &:hover {
       color: $navy;
-      border-bottom: 1px solid $light-grey;
+      @include border;
+    }
+  }
+  .back-to-top {
+    float: right;
+    margin-right: 0;
+    background-color: $light-grey;
+    color: $white;
+    display: block;
+    padding: 1px 8px 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    &:hover {
+      color: $white;
+      background-color: $dark-grey;
+      border-bottom: none;
+    }
+    @include media(tablet) {
+     display: none;
     }
   }
 }
@@ -29,17 +49,27 @@ nav.site-nav {
   nav.site-nav {
     @include site-nav;
     padding: $gutter 0;
-    @include core-36;
+    @include core-48;
     font-weight: 100;
     @include media(tablet) {
      height: auto;
     }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
     a {
       margin: 0 $gutter 0 0;
+      display: block;
+      border-bottom: none;
+      &:hover {
+        color: $navy;
+        @include media(tablet) {
+          @include border;
+        }
+      }
+      @include media(tablet) {
+        display: inline;
+      }
+    }
+    .back-to-top {
+      display: none;
     }
   }
 }

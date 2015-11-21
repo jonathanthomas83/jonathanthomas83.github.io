@@ -7,7 +7,10 @@ body {
   @extend %site-width-container;
 }
 #page-container {
-  padding-bottom: $gutter*3;
+  padding-bottom: $gutter;
+  @include media(tablet) {
+    padding-bottom: $gutter*3;
+  }
 }
 
 .grid-row {

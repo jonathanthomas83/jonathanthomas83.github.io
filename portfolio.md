@@ -1,20 +1,20 @@
 ---
-layout: page
+layout: full-width
 title: Portfolio
 permalink: /portfolio/
 ---
 
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<ul class="gallery grid-row">
+  {% assign items = site.portfolio | sort: 'date' %}
+  {% for service in site.portfolio %}
+    <li class="column-third">
+      <article>
+        <figure><a class="post-link" href="{{ service.url | prepend: site.baseurl }}"><img src="/images/{{ service.image_project }}/{{ service.main_image }}.png" alt="{{ service.title }}"/></a></figure>
+        <header>
+          <h3><a class="post-link" href="{{ service.url | prepend: site.baseurl }}">{{ service.short-title }}</a></h3>
+          <p class="text-muted">{{ service.timescale }}</p>
+        </header>
+      </article>
+    </li>
+  {% endfor %}
+</ul>
