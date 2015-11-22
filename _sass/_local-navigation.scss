@@ -1,30 +1,13 @@
 /**
- * Header
+ * Navigation
  */
-@mixin site-nav {
-  display: block;
-  font-weight: 300;
-}
 nav.site-nav {
   display: none;
+  @include media(tablet) {
+     display: block;
+  }
   padding: $gutter-one-third 0;
   border-bottom: 1px solid #EFEFEF;
-
-  @include media(tablet) {
-   @include site-nav;
-   @include core-24;
-   font-weight: 200;
-   padding: $gutter-half 0;
-  }
-  a {
-    margin: 0 $gutter-half 0 0;
-    color: $dark-grey;
-    text-decoration: none;
-    &:hover {
-      color: $navy;
-      @include border;
-    }
-  }
   .back-to-top {
     float: right;
     margin-right: 0;
@@ -47,10 +30,8 @@ nav.site-nav {
 }
 #homepage {
   nav.site-nav {
-    @include site-nav;
+    display: block;
     padding: $gutter 0;
-    @include core-48;
-    font-weight: 100;
     @include media(tablet) {
      height: auto;
     }
@@ -59,7 +40,6 @@ nav.site-nav {
       display: block;
       border-bottom: none;
       &:hover {
-        color: $navy;
         @include media(tablet) {
           @include border;
         }

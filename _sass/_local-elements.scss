@@ -5,3 +5,7 @@ abbr {
 @mixin border {
   border-bottom: 1px solid $light-grey;
 }
+
+article img {
+  width: 100%;
+}

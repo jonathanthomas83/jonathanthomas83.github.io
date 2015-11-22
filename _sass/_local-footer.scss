@@ -1,23 +1,14 @@
 /**
- * Header
+ * Footer
  */
 footer {
-  background-color: $dark-grey;
-  //border-top: 20px solid $light-grey;
   color: $white;
+  background-color: $dark-grey;
   .content {
     padding: $gutter 0;
-  }
-  h2 {
-    font-family: $heading-family;
-    font-weight: normal;
   }
   ul {
     list-style-type: none;
     padding: 0;
-  }
-  a {
-    font-weight: bold;
-    color: $light-grey;
   }
 }

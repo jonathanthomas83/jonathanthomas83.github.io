@@ -10,7 +10,16 @@
         vertical-align: middle;
 
         path {
-            fill: $grey-4;
+            fill: $grey-1;
         }
     }
+}
+footer {
+  .icon {
+      > svg {
+          path {
+              fill: $grey-4;
+          }
+      }
+  }
 }

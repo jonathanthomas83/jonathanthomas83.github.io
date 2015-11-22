@@ -4,7 +4,7 @@ short-title: "Companies House search"
 organisation: "Companies House"
 date: 2015-04-01 00:00:00 +0000
 timescale: "March 2013 &mdash; April 2015"
-layout: page
+layout: portfolio-page
 image_project: "companies-house-search"
 main_image: "CHS-mobile-2"
 categories: jekyll update
