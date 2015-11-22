@@ -124,9 +124,11 @@ ul.gallery {
 */
 article {
   .secondary-heading {
+    display: block;
     @include core-24;
     margin-bottom: 0;
     color: $dark-turquoise;
+    margin: $gutter 0 0;
   }
   .sub-secondary-heading {
     display: block;
