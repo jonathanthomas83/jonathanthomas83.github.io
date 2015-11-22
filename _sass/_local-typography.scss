@@ -118,26 +118,6 @@ ul.gallery {
       }
 }
 
-
-/**
-* Gallery
-*/
-article {
-  .secondary-heading {
-    display: block;
-    @include core-24;
-    margin-bottom: 0;
-    color: $dark-turquoise;
-    margin: $gutter 0 0;
-  }
-  .sub-secondary-heading {
-    display: block;
-    @include core-19;
-    font-weight: 300;
-    margin: 0 0 $gutter;
-  }
-}
-
 .leading-text {
   @include core-24;
     font-weight: 400;
@@ -145,4 +125,24 @@ article {
 
 article p:first-of-type {
   font-weight: 500;
+}
+
+.secondary-heading {
+  display: block;
+  @include core-24;
+  margin-bottom: 0;
+  color: $dark-turquoise;
+  margin: $gutter 0 0;
+}
+.sub-secondary-heading {
+  display: block;
+  @include core-19;
+  font-weight: 300;
+  margin: 0 0 $gutter;
+}
+aside {
+  h3 {
+    margin-top: 0;
+    color: $dark-turquoise;
+  }
 }
