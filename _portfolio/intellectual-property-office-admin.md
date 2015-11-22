@@ -9,23 +9,8 @@ image_project: "ipo-admin"
 main_image: "workshop-1"
 categories: jekyll update
 ---
-Helloooooo!!""
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+My aim before I joined the IPO was to raise the bar in terms of the quality of design of services being built and to change the focus to deliver good looking, effective and user centred services. In my time at the IPO, I have built a UI library that defines a set of controls to be used across services, utilising common components that we know from the frontend toolkit and elements and further enhancing with bespoke controls, this was the first thing I set out to achieve in order to ensure consistency and quality.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I have been involved in multiple work streams on different projects and am lead designer on a new internal, staff facing system. I have forged great relationships with business analysts and key users across the business to gather requirements and test hypotheses through UX lead user story mapping and sketched and browser based prototypes; tweaking them along the way, based on user feedback. These prototypes have formed the basis of the Alpha prototype, developed within a strict timescale, for GDS assessment this month.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Getting users to try a different UI to the one they’re used to has been a challenge. By sitting with users and learning how they work, I got a feel for how they struggled with the current system. I’ve been able to justify reasons for changing current processes, through demonstrating how to improve them. In doing this, I’ve been able to gain the trust of key stakeholders and they have been impressed with the simplicity of the service I’ve designed for them; it has a great user experience and it meets business objectives and is valuable to everyone invested in it. Recently, a senior manager of a section I have been working with took the time to praise my efforts and thank me for the work I’d done for them by way of writing an article in a staff newsletter.
