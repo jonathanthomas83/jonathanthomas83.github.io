@@ -129,7 +129,18 @@ article {
     color: $dark-turquoise;
   }
   .sub-secondary-heading {
+    display: block;
     @include core-19;
-    margin-top: 0;
+    font-weight: 300;
+    margin: 0 0 $gutter;
   }
+}
+
+.leading-text {
+  @include core-24;
+    font-weight: 400;
+}
+
+article p:first-of-type {
+  font-weight: 500;
 }
