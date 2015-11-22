@@ -5,31 +5,6 @@
   background-color: $header-background-colour;
 }
 
-@mixin site-title {
-  color: $header-title-colour;
-  font-family: $title-family;
-  text-decoration: none;
-  text-transform: normal;
-  text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67);
-}
-
-@mixin subtitle {
-  color: $header-subtitle-colour;
-  font-weight: 300;
-}
-
-@mixin nav-skip-link {
-  a {
-    text-decoration: none;
-    @include core-19;
-    font-weight: 300;
-    color: $white;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
 header.site-header {
   @include header;
   padding: $gutter-one-third 0;

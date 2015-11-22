@@ -6,13 +6,13 @@ permalink: /portfolio/
 
 <ul class="gallery grid-row">
   {% assign items = site.portfolio | sort: 'date' %}
-  {% for service in site.portfolio %}
+  {% for portfolio in site.portfolio %}
     <li class="column-third">
       <article>
-        <figure><a class="post-link" href="{{ service.url | prepend: site.baseurl }}"><img src="/images/{{ service.image_project }}/{{ service.main_image }}.png" alt="{{ service.title }}"/></a></figure>
+        <figure><a class="post-link" href="{{ portfolio.url | prepend: site.baseurl }}"><img src="/images/{{ portfolio.image_project }}/{{ portfolio.main_image }}.png" alt="{{ portfolio.title }}"/></a></figure>
         <header>
-          <h3><a class="post-link" href="{{ service.url | prepend: site.baseurl }}">{{ service.short-title }}</a></h3>
-          <p class="text-muted">{{ service.timescale }}</p>
+          <h2><a class="post-link" href="{{ portfolio.url | prepend: site.baseurl }}">{{ portfolio.short-title }}</a></h2>
+          <p class="text-muted">{{ portfolio.timescale }}</p>
         </header>
       </article>
     </li>

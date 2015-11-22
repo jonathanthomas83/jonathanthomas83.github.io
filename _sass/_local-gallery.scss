@@ -4,7 +4,6 @@
 ul.gallery {
   list-style-type: none;
   padding: 0;
-  color: $dark-grey;
   li {
     margin-bottom: $gutter-half;
     @include media(tablet) {
@@ -28,26 +27,6 @@ ul.gallery {
       }
       header {
         padding: $gutter-half;
-        h3 {
-          @include core-16;
-          font-weight: 700;
-          padding: 0 0 $gutter-one-third 0;
-          margin: 0;
-          border-bottom: 1px solid $extra-light-grey;
-          a {
-            text-decoration: none;
-            color: $dark-grey;
-            &:hover {
-                @include border;
-                color: $navy;
-            }
-          }
-        }
-        p {
-          @include core-16;
-          font-weight: 200;
-          margin: $gutter-one-third 0 0;
-        }
       }
     }
   }

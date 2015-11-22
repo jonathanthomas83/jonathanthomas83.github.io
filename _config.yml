@@ -25,5 +25,5 @@ collections:
     output: true
     permalink: /portfolio/:path/
     defaults:
-      values: 
-        layout: post
+      values:
+        layout: portfolio-page

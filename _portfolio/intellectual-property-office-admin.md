@@ -4,7 +4,7 @@ short-title: "IPO admin system"
 organisation: "Intellectual Property Office"
 date: 2015-01-12 00:00:00 +0000
 timescale: "April 2015 &mdash; December 2015"
-layout: page
+layout: portfolio-page
 image_project: "ipo-admin"
 main_image: "workshop-1"
 categories: jekyll update
