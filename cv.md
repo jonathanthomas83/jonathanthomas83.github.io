@@ -6,8 +6,14 @@ permalink: /cv/
 
 <p class="leading-text">I am a UX designer with over eight years experience. Passionate about creating user centric, meaningful, beautiful digital products that solve problems for real people.</p>
 
+
+  <h2 class="secondary-heading">UX designer, Environment Agency</h2>
+  <p class="sub-secondary-heading">January 2016 &mdash; Present</p>
+
+  
+
   <h2 class="secondary-heading">Senior UX designer, Intellectual Property Office</h2>
-  <p class="sub-secondary-heading">April 2015 &mdash; Present</p>
+  <p class="sub-secondary-heading">April 2015 &mdash; December 2015</p>
 
   My aim before I joined the IPO was to raise the bar in terms of the quality of design of services being built and to change the focus to deliver good looking, effective and user centred services. In my time at the IPO, I have built a UI library that defines a set of controls to be used across services, utilising common components that we know from the frontend toolkit and elements and further enhancing with bespoke controls, this was the first thing I set out to achieve in order to ensure consistency and quality.
 
