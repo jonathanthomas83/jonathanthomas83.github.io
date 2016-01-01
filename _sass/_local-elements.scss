@@ -33,3 +33,11 @@ aside {
     width: 30%;
   }
 }
+img {
+  &.left, &.right {
+    @include media(tablet) {
+      width: 40%;
+    }
+  }
+  margin-bottom: $gutter-two-thirds;
+}

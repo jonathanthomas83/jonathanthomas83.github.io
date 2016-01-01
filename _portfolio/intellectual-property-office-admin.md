@@ -5,8 +5,9 @@ organisation: "Intellectual Property Office"
 date: 2015-01-12 00:00:00 +0000
 timescale: "April 2015 &mdash; December 2015"
 layout: portfolio-page
-leading_text: "Lead UX designer in a team of developers, testers and analysts, tasked with creating a strategy and framework for a newly designed system that will replace a thirty year old mainframe system."
+leading_text: "Lead UX designer in a team of developers, testers and analysts, tasked with creating a strategy, framework and design for a newly designed system that will replace a thirty year old mainframe system."
 image_project: "ipo-admin"
+portfolio_image: "workshop-1"
 main_image: "head-1"
 categories: jekyll update
 ---
@@ -17,5 +18,5 @@ categories: jekyll update
   <li>Users had 30 years worth of backlogged requirements and as UX designer, it was my duty to bring to the surface the key things that would make the new system a success.</li>
   <li>Getting users to try a different UI to the one they’re used to has been a challenge. By sitting with users and learning how they work, I got a feel for how they struggled with the current system.</li>
 </ul>
-<img src="https://goo.gl/photos/Z7xiUSsGNywjTHGU6" />
+<img class="left" src="https://lh3.googleusercontent.com/bGQ-SdRLsAeLgVaVl67Drsdhnw7tJr43SibyRhTUJMGJo-BjfhviMEHt5cUe9LG79Nxuk8h1qEueWDOBQI8HyBVxrsAByJdWGnjy43Wuem41dcHM-CpKK_ktHIYnzHHYZcRtzKiP5w2Ckb0xUX6tzv__G7WZBxjGL0t4dTkdSb3ei0x0teGZSwisOpiImI-QgOqWdOzlllGZ6gNV-RVvKK9Bdd7TTPZSJX3CcTBRGGNv2Gr82SdMvkHd5owK0dBXzVUuyBQvegIY0P-ateIhRBoSZ1BPuirqdGeShnO0bFXPc8973QCg1f-ertkdfkPNTsOs-OA5SnNIPdAVWVDwvSA0cGLGh6hZXdH_bm4OuX-8V3KMciT3IcDmOB8wSSxMEXGcfs9iQxqYeuFSEzR2zelE3ykr-QH_wvXCPyzbOd2slGtxj-y1SqfNe0j7pdVYNIoeQQvBmYjURlIH2Tdssn7BxOhGjmPFhGQ-gbTJcG_8BIuBBcbFUZZHEwiUTG3djcPsZBhMsTOu4Cz5qCxgGVS0jmZfuH1vvS7eHo37MGdLSR2FiD0VjRml8_APxvDWcx2OqA=w1203-h851-no" />
   I’ve been able to justify reasons for changing current processes, through demonstrating how to improve them. In doing this, I’ve been able to gain the trust of key stakeholders and they have been impressed with the simplicity of the service I’ve designed for them; it has a great user experience and it meets business objectives and is valuable to everyone invested in it. Recently, a senior manager of a section I have been working with took the time to praise my efforts and thank me for the work I’d done for them by way of writing an article in a staff newsletter.
