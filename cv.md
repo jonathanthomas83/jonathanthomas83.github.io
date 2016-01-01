@@ -41,7 +41,7 @@ weight: 1
 
   As lead UX designer I designed a new service that rationalised three existing online services into one “experience” where users can search the registry for any of the 3.4 million registered companies in the UK, and can file for that company once authenticated. This is now in Beta and is being used by thousands with great feedback.
 
-  <!-- <em>View <a href="/portfolio/companies-house-search">Companies House Search case study</a> in Portfolio.</em> -->
+  <em>View <a href="/portfolio/companies-house-search">Companies House Search case study</a> in Portfolio.</em>
 
   In 2011 I lead design on customer experience improvement project which sought to drastically improve the user interface for the online filing service.
 
