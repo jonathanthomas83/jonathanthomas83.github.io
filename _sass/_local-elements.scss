@@ -1,12 +1,16 @@
 .right {
-  float: right;
-  margin-right: 0;
-  margin-left: $gutter;
+  @include media(tablet) {
+    float: right;
+    margin-right: 0;
+    margin-left: $gutter;
+  }
 }
 .left {
-  float: left;
-  margin-right: $gutter;
-  margin-left: 0;
+  @include media(tablet) {
+    float: left;
+    margin-right: $gutter;
+    margin-left: 0;
+  }
 }
 abbr {
   border-bottom: 1px dotted $dark-grey;
@@ -21,7 +25,11 @@ article img {
 }
 
 aside {
-  margin-top: $gutter;
-  margin-bottom: $gutter;
-  width: 25%;
+  padding: $gutter-half;
+  background-color: white;
+  margin: $gutter;
+  @include media(tablet) {
+    margin: $gutter;
+    width: 30%;
+  }
 }

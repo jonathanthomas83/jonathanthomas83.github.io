@@ -53,3 +53,15 @@ nav.site-nav {
     }
   }
 }
+.post-list {
+  list-style-type: none;
+  padding: 0;
+  li {
+    h2 {
+      margin-top: 0;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,10 +1,10 @@
 ---
-layout: home
+layout: full-width
+title: Blog
+permalink: /blog/
+weight: 10
 ---
 
-<div class="home">
-
-  <h1 class="heading-large">Blog</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -19,5 +19,3 @@ layout: home
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>

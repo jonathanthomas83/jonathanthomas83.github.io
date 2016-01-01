@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: full-width
 title: About
 permalink: /about/
+weight: 11
 ---
-<h2 class="heading-large">my job</h2>
+<h2 class="heading-large">My job</h2>
 <p>I work in an agile, multidisciplinary team and have done for my entire career. Following the design principles, I work an iteration or two ahead of development. I lead user story mapping workshops to learn about user needs and behaviours and produce quick, hand drawn wireframes that tackle user requirements and add value.</p>
 
 <p>Through user feedback, I iterate wireframes and develop quick, high fidelity HTML mockups that are then developed into live services. I support developers and lead and facilitate sprint planning with a UX slant.</p>
@@ -12,14 +13,14 @@ permalink: /about/
 
 <p>I am passionate about inclusive design, keep a keen eye on code quality and like to maintain reusable libraries of HTML, styles and scripts. I have a wealth of experience designing government services and have a detailed knowledge of GDS design patterns.</p>
 
-<h2 class="heading-large">me</h2>
-<p>I love the outdoors, enjoy seeing amazing sights and I like mountains. I'm partial to the odd Chinese meal and would probably describe my weekends as chilled and mainly constructed around food.</p>
+<h2 class="heading-large">Me</h2>
+<p>I love the outdoors, enjoy seeing amazing sights and I like mountains. I'm partial to the odd Chinese meal and would describe my weekends as chilled and planned mainly around food.</p>
 
-<p>My main thing in life is music and playing guitar. I have a 1957 reissue Fender Stratocaster which is my pride and joy and learning to get a sound out of my instrument that is anywhere near as beautiful as the sound David Gilmour (<em>Pink Floyd</em>) gets out of his is my life's ambition!</p>
+<p>I'm passionate about music and playing guitar. I have a 1957 reissue Fender Stratocaster which is my pride and joy and learning to get a sound out of my instrument that is anywhere near as beautiful as the sound David Gilmour (<em>Pink Floyd</em>) gets out of his is my life's ambition!</p>
 
 <p>Also have a fondness for football, both playing (badly) and watching (loudly).</p>
 
-<h2 class="heading-large">this website</h2>
+<h2 class="heading-large">This website</h2>
 <p>This website is published on <a href="https://pages.github.com/">GitHub Pages</a> using:
 <ul>
   <li><a href="http://jekyllrb.com/">Jekyll</a></li>
