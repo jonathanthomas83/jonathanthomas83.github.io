@@ -36,12 +36,6 @@ header.site-header {
   header.site-header {
     @include header;
 
-    background: url(/images/retrospective.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
     min-height: 470px;
     position: relative;
     padding: 1px 0;
