@@ -51,7 +51,7 @@ The prototype kit contains a number of example pages to get you started. So the 
 
 That's is, you're ready for prototyping.
 
-For further information, please see the really helpful documentation at GitHub, [getting started with the prototype kit].
+For further information, please see the really helpful documentation at GitHub, [getting started with the prototype kit][getting-started-prototype-kit].
 
 [govuk_prototype_kit]: https://github.com/alphagov/govuk_prototype_kit
 [node.js]: https://nodejs.org/en/download/
@@ -59,4 +59,4 @@ For further information, please see the really helpful documentation at GitHub, 
 [latest govuk_prototype_kit zip file]: https://github.com/alphagov/govuk_prototype_kit/archive/master.zip
 [http://localhost:3000]: http://localhost:3000
 [http://localhost:3000/new-project/forms]: http://localhost:3000/new-project/forms
-[getting started with the prototype kit]: https://github.com/alphagov/govuk_prototype_kit/blob/master/docs/getting-started.md
+[getting-started-prototype-kit]: https://github.com/alphagov/govuk_prototype_kit/blob/master/docs/getting-started.md
