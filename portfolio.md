@@ -2,7 +2,7 @@
 layout: full-width
 title: Portfolio
 permalink: /portfolio/
-weight: 2
+weight: 3
 ---
 
 <ul class="gallery grid-row">

@@ -11,6 +11,7 @@ weight: 1
   <h3>Key skills</h3>
   <p>Wireframing, HTML5, CSS3, Sass, jQuery, JavaScript, WAI-ARIA, Git, Github, Adobe Creative Suite, Bootstrap, Balsamiq, Axure.</p>
   <p>Specialist knowledge of <strong>GOV.UK Frontend Toolkit</strong> and GOV.UK Elements. Responsive design certified specialist, accessibility champion and agile enthusiast.</p>
+  <a href="/expertise/">View my expertise</a>
 </aside>
 
   <h2 class="secondary-heading">UX designer, Environment Agency</h2>
