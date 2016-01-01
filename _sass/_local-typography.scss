@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     font-weight: 400;
     color: $dark-turquoise;
+    margin-top: 1.75em;
 }
 .heading-large, .heading-medium {
   margin-top: 1.75em;
@@ -142,7 +143,7 @@ ul.gallery {
   @include core-24;
   margin-bottom: 0;
   color: $dark-turquoise;
-  margin: 1.75em 0 0;
+  margin-bottom: 0;
 }
 .sub-secondary-heading {
   display: block;
