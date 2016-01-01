@@ -3,6 +3,7 @@ layout: post
 title:  "How to set up the govuk_prototype_kit on Windows"
 date:   2015-12-30 12:37:00 +0000
 categories: govuk node npm windows
+post_image: govuk-prototype-kit
 ---
 The **[govuk_prototype_kit]** is a quick and easy way to develop high fidelity prototypes for projects that need to look like Gov.UK. There is plenty of advice on using the kit on the GitHub pages, but here is a quick tutorial for setting up Node.js and NPM on Windows in order to make things just work. It's simple and quick!
 
@@ -50,7 +51,7 @@ The prototype kit contains a number of example pages to get you started. So the 
 
 That's is, you're ready for prototyping.
 
-For further information, please see the really helpful documentation at GitHub, [getting started with the prototype kit].
+For further information, please see the really helpful documentation at GitHub, [getting started with the prototype kit][getting-started-prototype-kit].
 
 [govuk_prototype_kit]: https://github.com/alphagov/govuk_prototype_kit
 [node.js]: https://nodejs.org/en/download/
@@ -58,4 +59,4 @@ For further information, please see the really helpful documentation at GitHub, 
 [latest govuk_prototype_kit zip file]: https://github.com/alphagov/govuk_prototype_kit/archive/master.zip
 [http://localhost:3000]: http://localhost:3000
 [http://localhost:3000/new-project/forms]: http://localhost:3000/new-project/forms
-[getting started with the prototype kit]: https://github.com/alphagov/govuk_prototype_kit/blob/master/docs/getting-started.md
+[getting-started-prototype-kit]: https://github.com/alphagov/govuk_prototype_kit/blob/master/docs/getting-started.md

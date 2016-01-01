@@ -163,3 +163,16 @@ ul, ol {
     margin-bottom: $gutter-half;
   }
 }
+.home {
+  .leading-text {
+    margin-top: 2.75em;
+  }
+  .post-list {
+    @include media(tablet) {
+      @include core-14;
+    }
+    span {
+      display: block;
+    }
+  }
+}
