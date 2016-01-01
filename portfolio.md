@@ -7,7 +7,7 @@ weight: 2
 
 <ul class="gallery grid-row">
   {% assign items = site.portfolio | sort: 'date' %}
-  {% for portfolio in site.portfolio %}
+  {% for portfolio in site.portfolio reversed %}
     <li class="column-third">
       <article>
         <figure><a class="post-link" href="{{ portfolio.url | prepend: site.baseurl }}"><img src="/images/{{ portfolio.image_project }}/{{ portfolio.main_image }}.png" alt="{{ portfolio.title }}"/></a></figure>
