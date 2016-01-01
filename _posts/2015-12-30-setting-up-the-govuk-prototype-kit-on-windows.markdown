@@ -3,6 +3,7 @@ layout: post
 title:  "How to set up the govuk_prototype_kit on Windows"
 date:   2015-12-30 12:37:00 +0000
 categories: govuk node npm windows
+post_image: govuk-prototype-kit
 ---
 The **[govuk_prototype_kit]** is a quick and easy way to develop high fidelity prototypes for projects that need to look like Gov.UK. There is plenty of advice on using the kit on the GitHub pages, but here is a quick tutorial for setting up Node.js and NPM on Windows in order to make things just work. It's simple and quick!
 
