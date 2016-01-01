@@ -18,7 +18,44 @@ Test to see if it works
 * In your windows search box, type "cmd"
 * Right click (or "shift" + "F10") "Command Prompt" and select "Run as administrator" from the context menu
 * When prompted "Do you want to allow this application to make changes to your PC?" choose "Yes"
-* 
+* To test Node, type `node -v` - this should output a version number
+* To test NPM, type `npm -v` - this should output a version number
+* To test Node.js, create a file called "test.js" in your Documents folder and place the following line of code in it `console.log('Node is installed!');`. Back in the command prompt ("cmd") navigate to your file by typing `cd /Users/Username/Documents` (replacing "Username" with your user name). Then type `node test.js`. This should output "Node is installed!".
+
+(Instructions originally found on [blog.teamtreehouse.com/install-node-js-npm-windows].)
+
+Installing the govuk_prototype_kit
+----------------------------------
+* Download the [latest govuk_prototype_kit zip file]
+* Unzip the file into a memorable directory that you can navigate to on the command line, like your "Documents" folder
+* In the command prompt ("cmd") navigate to your file by typing `cd /Users/Username/Documents` (replacing "Username" with your user name)
+* You can the type `cd govuk_prototype_kit-master` to navigate to the unzipped prototype kit
+* Type `npm install` to install the rest of the things that the kit needs to work properly
+* Type `node start.js`
+* Go to [http://localhost:3000] in your browser
+
+**Important things to remember**
+
+* To view multiple prototypes at the same time, simply type `PORT=3005 node start.js` and change the port number for each prototype.
+* Any code changes should update in the browser without you restarting the app.
+* The app recompiles app/assets/stylesheets/application.scss every time changes are observed.
+
+Creating your first page with the govuk_prototype_kit
+-----------------------------------------------------
+The prototype kit contains a number of example pages to get you started. So the best way to get editing is to either start from scratch or simply copy and paste an existing example page.
+
+* Best practice would be to contain your new pages in a new folder, so first create a folder under "views" called "new-project"
+* Copy "forms.html" from "examples/elements/forms.html" and paste it into your new folder
+* Mess about with the HTML, save it and point your browser to [http://localhost:3000/new-project/forms]
+
+That's is, you're ready for prototyping.
+
+For further information, please see the really helpful documentation at GitHub, [getting started with the prototype kit].
 
 [govuk_prototype_kit]: https://github.com/alphagov/govuk_prototype_kit
 [node.js]: https://nodejs.org/en/download/
+[blog.teamtreehouse.com/install-node-js-npm-windows]: http://blog.teamtreehouse.com/install-node-js-npm-windows
+[latest govuk_prototype_kit zip file]: https://github.com/alphagov/govuk_prototype_kit/archive/master.zip
+[http://localhost:3000]: http://localhost:3000
+[http://localhost:3000/new-project/forms]: http://localhost:3000/new-project/forms
+[getting started with the prototype kit]: https://github.com/alphagov/govuk_prototype_kit/blob/master/docs/getting-started.md
