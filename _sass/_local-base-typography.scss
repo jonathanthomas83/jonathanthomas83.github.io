@@ -102,7 +102,7 @@
 
 }
 
-.heading-medium {
+.heading-medium, h2 {
   @include bold-24();
 
   margin-top: em(25, 20);

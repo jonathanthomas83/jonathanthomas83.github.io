@@ -50,6 +50,16 @@ h1, h2, h3, h4, h5, h6 {
     color: $dark-turquoise;
   }
 }
+h2 {
+    font-weight: 400;
+    color: $dark-turquoise;
+}
+.heading-large, .heading-medium {
+  margin-top: 1.75em;
+}
+.heading-small {
+  margin-top: 1.5em;
+}
 
 /**
  * Footer
@@ -123,16 +133,16 @@ ul.gallery {
     font-weight: 400;
 }
 
-article p:first-of-type {
+/*article p:first-of-type {
   font-weight: 500;
-}
+}*/
 
 .secondary-heading {
   display: block;
   @include core-24;
   margin-bottom: 0;
   color: $dark-turquoise;
-  margin: $gutter 0 0;
+  margin: 1.75em 0 0;
 }
 .sub-secondary-heading {
   display: block;
@@ -145,5 +155,10 @@ aside {
     margin-top: 0;
     color: $dark-turquoise;
     font-weight: 300;
+  }
+}
+ul, ol {
+  li {
+    margin-bottom: $gutter-half;
   }
 }
