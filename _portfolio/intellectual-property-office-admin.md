@@ -76,6 +76,8 @@ Presented the final prototype to key stakeholders across the business and lead s
 
 <img src="/images/{{ page.image_project }}/ida-journey.jpg" />
 
+<img src="/images/{{ page.image_project }}/story-map.jpg" />
+
 <img src="/images/{{ page.image_project }}/persona-rachel.jpg" />
 
 <img src="/images/{{ page.image_project }}/sketch-1.jpg" />

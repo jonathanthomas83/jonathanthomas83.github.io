@@ -13,12 +13,12 @@ weight: 2
       <li>User Interface design</li>
       <li>Interaction design</li>
       <li>GOV.UK Frontend Toolkit</li>
-      <li>Agile</li>
+      <li>GOV.UK Prototype Kit</li>
       <li>Design leadership and mentoring</li>
       <li>Rapid prototyping (high and low fidelity)</li>
+      <li>Responsive design</li>
       <li>Lean UX</li>
       <li>Visual communication</li>
-      <li>Responsive design</li>
       <li>Accessibility standards</li>
       <li>Digital transformation</li>
       <li>Leading user workshops</li>
@@ -28,6 +28,7 @@ weight: 2
       <li>Usability testing and analysis</li>
       <li>Sketching</li>
       <li>Information architecture</li>
+      <li>Agile</li>
     </ul>
   </div>
   <div class="column-half">
