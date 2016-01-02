@@ -24,7 +24,7 @@ weight: 1
 
   As UX designer at IPO, I was involved in multiple work streams on different projects and was lead designer on a new internal, staff facing system. I forged great relationships with business analysts, product owners and key users across the business to gather requirements and test hypotheses through UX lead user story mapping and sketched and browser based prototypes; tweaking them along the way, based on user feedback. The prototypes formed the basis of the final Alpha deliverable, developed within a strict timescale, for GDS assessment in September 2015 and was successful.
 
-  <em>View <a href="/portfolio/Intellectual-property-office-admin">IPO admin project case study</a> in Portfolio.</em>
+  <em>View <a href="/portfolio/intellectual-property-office-admin/">IPO admin project case study</a> in Portfolio.</em>
 
   My aim before I joining the IPO was to help raise the bar in terms of the quality of design of services being built and to change the focus to deliver good looking, effective and user centred services. In a small, new and evolving UX team, I helped establish the core principles on which we delivered quality services.
 
