@@ -52,7 +52,6 @@ Actions
 
 * Reviewed the current process - sat with users across the business.
 * Lead workshops for gathering requirements and mapping out user stories which would give an outline of the end to end process that users would go through from a "to be" perspective.
-* Created personas
 * Created user journey maps
 * Created low fidelity sketches and more advanced, dynamic HTML prototypes that were to be used to run user testing sessions with the teams involved; the people who would ultimately be using these screens daily.
 
