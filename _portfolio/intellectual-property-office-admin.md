@@ -58,17 +58,21 @@ Actions
 Outcomes
 --------
 
-Producing quick sketches of screens and screen flow allowed me to put ideas in front of users regularly and meant I was able to get quick feedback on how flows worked for them, and also what didn't work. Soon after starting these interactions with users, they were informing the flow and constructing the journey that suited them.
-
 <img class="right" src="/images/{{ page.image_project }}/application-create-1.jpg" />
+
+Producing quick sketches of screens and screen flow allowed me to put ideas in front of users regularly and meant I was able to get quick feedback on how flows worked for them, and also what didn't work. Soon after starting these interactions with users, they were informing the flow and constructing the journey that suited them.
 
 Through demonstrating the failings of the current system and the quick completion rates of the new prototypes, I was able to convince the business that this change would bring instant benefits to staff workflow and ultimately would bring financial gain through quicker processing.
 
 In doing this, I was able to gain the trust of key stakeholders and impressed them with the simplicity of the service I designed for them; it has a great user experience and it meets business objectives and is valuable to everyone invested in it. A senior manager of a section I had been working with took the time to praise my efforts and thank me for the work I’d done for them by way of writing an article in a staff newsletter.
 
+<img class="left" src="/images/{{ page.image_project }}/presentation.jpg" />
+
 A fully functional HTML prototype was used for the GDS Alpha Assessment to demonstrate the end to end process. The assessment passed successfully and was commended. The prototype was then used to inform developers of the exact way the screens needed to look and function.
 
 With a fully functional prototype, as UX lead, I was able to lead sprint planning sessions with developers and testers, in order to plan the workload and what was needed to deliver each part of the service.
+
+Presented the final prototype to key stakeholders across the business and lead show and tell demos throughout the build process for product owners and senior management.
 
 <img src="/images/{{ page.image_project }}/ida-journey.jpg" />
 
