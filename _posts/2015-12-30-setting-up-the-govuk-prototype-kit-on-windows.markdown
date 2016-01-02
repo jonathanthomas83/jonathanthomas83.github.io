@@ -53,7 +53,7 @@ That's is, you're ready for prototyping.
 
 For further information, please see the really helpful documentation at GitHub, [getting started with the prototype kit][getting-started-prototype-kit].
 
-Now you'll want to [deploy your new prototype online]({% post_url 2016-01-02-pulishing-a-prototype-on-heroku %}).
+Now you'll want to [deploy your new prototype online]({% post_url 2016-01-02-pulishing-a-prototype-online-with-heroku %}).
 
 [govuk_prototype_kit]: https://github.com/alphagov/govuk_prototype_kit
 [node.js]: https://nodejs.org/en/download/

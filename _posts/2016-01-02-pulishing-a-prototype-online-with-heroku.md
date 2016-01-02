@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deploying your prototype to Heroku"
+title:  "Deploying your prototype online with Heroku"
 date:   2016-01-02 11:26:00 +0000
 categories: govuk node heroku windows
 post_image: heroku-toolbelt
