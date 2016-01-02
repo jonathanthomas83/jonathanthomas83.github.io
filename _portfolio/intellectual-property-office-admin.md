@@ -2,7 +2,7 @@
 title:  "Staff facing administration workflow"
 short-title: "IPO admin system"
 organisation: "Intellectual Property Office"
-date: 2015-01-12 00:00:00 +0000
+date: 2016-01-01 00:00:00 +0000
 timescale: "April 2015 &mdash; December 2015"
 layout: portfolio-page
 leading_text: "Lead UX designer in a team of developers, testers and analysts, tasked with creating a strategy, framework and design for a newly designed system that will replace a thirty year old mainframe system."
@@ -42,8 +42,6 @@ Currently users must select the action from a numbered menu (e.g. "*add an appli
 The solution
 ------------
 * Create a search driven application, whereby users would search once for the patent they need and from there onward, they could complete any number of tasks associated with that patent
-
-
 
 Actions
 -------
