@@ -63,7 +63,7 @@ You'll then need to add a "develop" heroku remote app, to see the changes you ma
 * Type `git push develop develop:master` - you have to add 'develop:master' otherwise Heroku assumes you want the master branch to be deployed
 * View your experimental app at **[develop-name].herokuapp.com**
 
-*Note* that you'll be asked to set ausername and password for the newly deployed version of your site, you can do this by:
+**Note** that you'll be asked to set ausername and password for the newly deployed version of your site, you can do this by:
 
 * heroku config:set USERNAME=username_here -r remotename_here
 * heroku config:set PASSWORD=password_here -r remotename_here
