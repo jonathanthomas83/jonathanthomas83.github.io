@@ -42,6 +42,8 @@ If you try visiting [https://cryptic-garden-4610.herokuapp.com/][cryptic-garden-
 * Type `heroku config:set USERNAME=username_here`
 * Type `heroku config:set PASSWORD=password_here`
 * Or, type `heroku config:set USE_AUTH=false` if you don't want password protection
+* Or, you can set these values in the Heroku dashboard, via "Settings" > "Config Variables"
+  * Remember to type "USERNAME" and "PASSWORD" in the boxes on the left and the value you wish to set in the corresponding boxes to the right.
 
 Deploying changes
 -----------------
@@ -60,6 +62,13 @@ You'll then need to add a "develop" heroku remote app, to see the changes you ma
 * type `heroku apps:create --remote develop [develop-name]` (you can make up any name you wish)
 * Type `git push develop develop:master` - you have to add 'develop:master' otherwise Heroku assumes you want the master branch to be deployed
 * View your experimental app at **[develop-name].herokuapp.com**
+
+*Note* that you'll be asked to set ausername and password for the newly deployed version of your site, you can do this by
+* heroku config:set USERNAME=username_here -r remotename_here
+* heroku config:set PASSWORD=password_here -r remotename_here
+* Or, type `heroku config:set USE_AUTH=false -r remotename_here` if you don't want password protection
+* Or, you can set these values in the Heroku dashboard, via "Settings" > "Config Variables"
+  * Remember to type "USERNAME" and "PASSWORD" in the boxes on the left and the value you wish to set in the corresponding boxes to the right.
 
 Running locally
 ---------------
