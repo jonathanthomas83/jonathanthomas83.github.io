@@ -11,7 +11,7 @@ Download and install Git for Windows
 ------------------------------------
 * Download and install [Github for Windows][https://git-scm.com/download/win]
 * Follow the steps, until you get asked about "Adjusting your PATH environment", choose "Use Git from the Windows Command Prompt"
-![Choose "Use Git from the Windows Command Prompt"](/images/git-for-windows.jpg "Git for Windows setup")
+![Choose "Use Git from the Windows Command Prompt"](/images/posts/git-for-windows.jpg "Git for Windows setup")
 
 Setting up Node.js and NPM
 --------------------------
