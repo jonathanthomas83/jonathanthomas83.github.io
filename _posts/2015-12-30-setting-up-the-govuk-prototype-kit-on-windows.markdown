@@ -10,8 +10,7 @@ The **[govuk_prototype_kit]** is a quick and easy way to develop high fidelity p
 Download and install Git for Windows
 ------------------------------------
 * Download and install [Github for Windows][https://git-scm.com/download/win]
-* Follow the steps, until you get asked about "Adjusting your PATH environment", choose "Use Git from the Windows Command Prompt"
-![Choose "Use Git from the Windows Command Prompt"](/images/posts/git-for-windows.jpg "Git for Windows setup")
+* Follow the steps, until you get asked about "**Adjusting your PATH environment**", choose "**Use Git from the Windows Command Prompt**"
 
 Setting up Node.js and NPM
 --------------------------
