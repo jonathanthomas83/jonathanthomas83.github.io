@@ -7,6 +7,12 @@ post_image: govuk-prototype-kit
 ---
 The **[govuk_prototype_kit]** is a quick and easy way to develop high fidelity prototypes for projects that need to look like Gov.UK. There is plenty of advice on using the kit on the GitHub pages, but here is a quick tutorial for setting up Node.js and NPM on Windows in order to make things just work. It's simple and quick!
 
+Download and install Git for Windows
+------------------------------------
+* Download and install [Github for Windows][https://git-scm.com/download/win]
+* Follow the steps, until you get asked about "Adjusting your PATH environment", choose "Use Git from the Windows Command Prompt"
+![Choose "Use Git from the Windows Command Prompt"](/images/git-for-windows.jpg "Git for Windows setup")
+
 Setting up Node.js and NPM
 --------------------------
 * Download and install **[node.js]** ensuring you using the correct installer for your system (32 bit or 64 bit)
@@ -55,6 +61,7 @@ For further information, please see the really helpful documentation at GitHub, 
 
 Now you'll want to [deploy your new prototype online]({% post_url 2016-01-02-publishing-a-prototype-online-with-heroku %}).
 
+[https://git-scm.com/download/win]:https://git-scm.com/download/win
 [govuk_prototype_kit]: https://github.com/alphagov/govuk_prototype_kit
 [node.js]: https://nodejs.org/en/download/
 [blog.teamtreehouse.com/install-node-js-npm-windows]: http://blog.teamtreehouse.com/install-node-js-npm-windows
