@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Setting up hard drives in Linux"
+date:   2016-03-25 12:37:00 +0000
+categories: hard drives linux
+post_image: govuk-prototype-kit
+---
 Setting up hard drives, with existing data and without, in Ubuntu
 
 <ol>
