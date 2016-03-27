@@ -53,3 +53,10 @@ You can check everything is ok by typing `quit` on parted, and `sudo fdisk /dev/
 
 **Mount the drive on boot**
 * `vi /etc/fstab`
+
+**Create new NFS export**
+* https://192.168.1.77:10000/
+
+**Add to snapraid pool**
+* `sudo vi snapraid conf`
+* Edit the file, easy to know where stuff is.
