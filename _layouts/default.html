@@ -1,19 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" class="govuk-template ">
 
-  {% include head.html %}
+  {%- include head.html -%}
 
-  <body>
+  <body class="govuk-template__body">
 
-    {% include header.html %}
+    {%- include header.html -%}
 
-    <main id="page-container">
-        {{ content }}
-    </main>
+    <div class="govuk-width-container">
+      <main class="govuk-main-wrapper " id="main-content" role="main" aria-label="Content">
 
-    {% include footer.html %}
+        <div class="govuk-grid-row">
+          {{ content }}
+        </div>
 
-    {% include foot.html %}
+      </main>
+    </div>
+
+    {%- include footer.html -%}
+
   </body>
 
 </html>

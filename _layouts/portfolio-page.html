@@ -1,19 +1,18 @@
 ---
 layout: default
 ---
-  <article class="post">
+<article class="govuk-grid-column-two-thirds">
 
-    <header class="post-header">
-      <h1 class="heading-xlarge">{{ page.title }}</h1>
-      <span class="secondary-heading">{{ page.organisation }}</span>
-      <span class="sub-secondary-heading">{{ page.timescale }}</span>
-    </header>
+  <header class="post-header">
+    <h1 class="govuk-heading-xl">{{ page.title }}</h1>
+    <p class="secondary-heading govuk-!-font-size-27 govuk-!-margin-bottom-0">{{ page.organisation }}</p>
+    <p class="sub-secondary-heading govuk-!-font-size-24">{{ page.timescale }}</p>
+  </header>
 
-    <p class="leading-text">{{ page.leading_text }}</p>
-    <img src="/images/{{ page.image_project }}/{{ page.main_image }}.jpg" alt="{{ page.title }}"/>
+  <p class="govuk-body-l">{{ page.leading_text }}</p>
 
-    <div class="post-content">
-      {{ content }}
-    </div>
+  <div class="post-content">
+    {{ content }}
+  </div>
 
-  </article>
+</article>

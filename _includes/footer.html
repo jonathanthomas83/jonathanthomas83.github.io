@@ -1,38 +1,6 @@
-<footer class="site-footer">
-
-  <div class="content">
-
-    <!--h2 class="footer-heading">{{ site.title }}</h2-->
-
-    <div class="grid-row">
-      <div class="column-third">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="column-third">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="column-third">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
+<footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    <p class="govuk-body">Email: <a href="mailto:jonathan@jonathanpthomas.com">jonathan@jonathanpthomas.com</a></p>
+    <p class="govuk-body">LinkedIn: <a href="https://www.linkedin.com/in/jonathan-thomas-4679b621/">Jonathan Thomas</a></p>
   </div>
-
 </footer>

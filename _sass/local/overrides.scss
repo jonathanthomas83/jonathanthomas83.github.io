@@ -1,0 +1,46 @@
+
+.govuk-header {
+    background: $dark;
+  }
+.govuk-header__container {
+    border-bottom: 0px;
+    margin-bottom: 5px;
+}
+.govuk-header {
+  .subtitle {
+    display: block;
+    @include govuk-media-query($from: mobile) {
+      margin: -6px 0 0 14px;
+    }
+    @include govuk-media-query($until: tablet) {
+      margin: -3px 0 0 9px;
+    }
+  }
+}
+.govuk-footer {
+  background-color: $footer-colour;
+}
+.subtitle {
+  margin-bottom: -20px;
+}
+
+article {
+  img {
+    width: 100%;
+    border: 1px solid;
+    border-color: govuk-colour("mid-grey");
+    padding: 10px;
+    margin-left: -11px;
+    margin-bottom: 20px;
+    background-color:  govuk-colour("light-grey");
+  }
+}
+
+span.icon {
+  svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+  }
+}

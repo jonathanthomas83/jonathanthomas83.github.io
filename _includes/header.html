@@ -1,26 +1,14 @@
-<header class="site-header" id="head">
-
-  <nav class="nav-skip">
-    <a href="#site-nav" class="skiplink">
-      MENU
-    </a>
-  </nav>
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}<span class="strap"> UX designer</span></a>
-    <span class="subtitle">User Experience designer</span>
-
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign page_paths = site.header_pages | default: default_paths -%}
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="#" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype-text">
+            <a class="site-title govuk-!-font-size-36" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+          </span>
+      </a>
+      <span class="subtitle govuk-!-font-size-19">UX Designer</span>
+    </div>
   </div>
-
 </header>
-
-<nav id="site-nav" class="site-nav">
-  {% assign pages = site.pages | sort:"weight"  %}
-  {% for my_page in pages %}
-    {% if my_page.title %}
-    <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-    {% endif %}
-  {% endfor %}
-  <a href="#head" class="back-to-top">&#8593;</a>
-</nav>
