@@ -1,0 +1,18 @@
+---
+layout: home
+title: Case studies
+permalink: /case-studies/
+weight: 3
+---
+
+<div class="govuk-grid-column-two-thirds">
+  <ul class="govuk-list">
+    {% assign items = site.case-studies | sort: 'date' %}
+    {% for case-studies in site.case-studies reversed %}
+      <li class="govuk-!-margin-bottom-3">
+        <span class="timescale govuk-body govuk-!-font-size-16">{{ case-studies.timescale }}: {{ case-studies.organisation }}</span><br />
+        <a href="{{ case-studies.url | prepend: site.baseurl }}">{{ case-studies.short-title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

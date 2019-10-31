@@ -75,3 +75,16 @@ at University of Glamorgan</li>
       </p>
 
 </div>
+
+<div class="govuk-grid-column-one-third">
+  <h3 class="govuk-heading-m">Case studies</h3>
+  <ul class="govuk-list">
+    {% assign items = site.portfolio | sort: 'date' %}
+    {% for portfolio in site.portfolio reversed %}
+      <li class="govuk-!-margin-bottom-3">
+        <span class="timescale govuk-body govuk-!-font-size-16">{{ portfolio.timescale }}: {{ portfolio.organisation }}</span><br />
+        <a href="{{ portfolio.url | prepend: site.baseurl }}">{{ portfolio.short-title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

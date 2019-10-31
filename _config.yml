@@ -32,9 +32,9 @@ plugins:
   - jekyll-feed
 
 collections:
-  portfolio:
+  case-studies:
     output: true
-    permalink: /portfolio/:path/
+    permalink: /case-studies/:path/
     defaults:
       values:
         layout: portfolio-page
