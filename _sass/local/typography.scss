@@ -17,6 +17,10 @@ $regular-family: 'Open sans', sans-serif;
   font-weight: 300;
   color: $dark;
 }
+.govuk-heading-s {
+  font-weight: 300;
+  color: $dark;
+}
 .govuk-header {
   .site-title {
     font-family: $title-family;
@@ -32,7 +36,7 @@ $regular-family: 'Open sans', sans-serif;
   }
 }
 .govuk-body-l {
-  font-family: $heading-family;
+  //font-family: $heading-family;
 }
 .govuk-footer {
   p {
@@ -45,4 +49,7 @@ $regular-family: 'Open sans', sans-serif;
 }
 .govuk-list {
   font-weight: 300;
+}
+.subheading::before {
+  content: "⟫ ";
 }
