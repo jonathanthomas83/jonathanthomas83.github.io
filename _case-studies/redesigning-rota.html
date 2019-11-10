@@ -1,7 +1,7 @@
 ---
 title:  "Redesigning the Rota calendar"
 short-title: "Rota calendar redesign"
-organisation: "HMCTS"
+organisation: "HMCTS - 13,426 users"
 date: 2019-08-01 00:00:00 +0000
 timescale: "Aug &ndash; Oct 2019"
 layout: portfolio-page
@@ -129,12 +129,16 @@ categories: jekyll update
 
 <p class="govuk-body">Users like it, they think it's an improvement and saves them time.</p>
 
-<h2 class="govuk-heading-m">Screens</h2>
+<h2 class="govuk-heading-m">Screens, design decisions and design patterns</h2>
 <p class="govuk-body">This shows the "judiciary menu" that administrators needed access to. This is current functionality, and the idea was to remove it from the screen to remove complexity. It got reinstated after user feedback.</p>
 <img src="/images/{{ page.image_project }}/main-switch.png" alt="{{ page.title }}"/>
 
 <p class="govuk-body">The session edit now exists on a separate screen, simplifying things for users and makes things more usable and accessible. From a development perspective, it opens up opportunities to share this functionality with other parts of the system that was simply impossibe with the old view. E.g. with the <a href="/case-studies/rota-confirm-sittings/">new confirm sittings functionality</a>.</p>
+<p class="govuk-body">This deviates from the traditional "one thing per screen" approach prescribed by GDS as it's not as granular as they advise. However, it suits this use case for quick input and tested well with users.</p>
 <img src="/images/{{ page.image_project }}/edit-session.jpg" alt="{{ page.title }}"/>
+
+<p class="govuk-body">Trying to stay within GDS guidelines for a calendar presentation was challenging and required thinking outside of the box. Standardisation and consistency was key. Links were kept to a minimum in order to focus the user on tasks.</p>
 <img src="/images/{{ page.image_project }}/main-switch-calendar.png" alt="{{ page.title }}"/>
+
 <p class="govuk-body">Also given it's own screen rather than an inaccessible overlay, is the judiciary search functionality. Allowing for better accessibility and usability.</p>
 <img src="/images/{{ page.image_project }}/search.png" alt="{{ page.title }}"/>
