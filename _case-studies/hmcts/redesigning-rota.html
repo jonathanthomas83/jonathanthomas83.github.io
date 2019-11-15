@@ -41,6 +41,7 @@ categories: jekyll update
 <p class="govuk-body">As a new user joins the organisation, they would be tasked to &ldquo;confirm yesterdays sittings&rdquo;. For existing users, this is a learned behaviour. But when new users aren't familiar with the quirks of the design, evidence shows that it leads to frustration.</p>
 
 
+<img src="/images/{{ page.image_project }}/iteration-top-bar.png" alt="{{ page.title }}"/>
 <img src="/images/{{ page.image_project }}/main.png" alt="{{ page.title }}"/>
 
 <h2 class="govuk-heading-m">Actions and achievements</h2>
@@ -90,7 +91,6 @@ categories: jekyll update
 <p class="govuk-body">Praised by users and thought to be a big improvement on the current functionality.</p>
 
 <img src="/images/{{ page.image_project }}/list.jpg" alt="{{ page.title }}"/>
-<img src="/images/{{ page.image_project }}/swap.png" alt="{{ page.title }}"/>
 
 <h3 class="govuk-heading-s subheading govuk-!-margin-bottom-0">Front-end design as part of a team</h3>
 <p class="govuk-body">Worked closely with the lead developer, tester and Business Analyst to ensure quality.</p>
@@ -102,11 +102,42 @@ categories: jekyll update
 <h3 class="govuk-heading-s subheading govuk-!-margin-bottom-0">User testing</h3>
 <p class="govuk-body">The design has been tested with users and has been iterated upon numerous times, which is a big achievement given constraints of project timescales.</p>
 
-<p class="govuk-body">Initial frustrations of the new design were that it lacked the colour coding of the original system. However, this has been designed to be easy to use for people of all abilities, including those with colour-blindness.</p>
+<p class="govuk-body">Initial frustrations of the new design were that it lacked the colour coding of the original system. However, this has been designed to be easy to use for people of all abilities, including those with colour-blindness. Overloading the screen with colour to indicate importance would make it hard to use for those users and would undermine and detract from the deliberate use of colour upon validation.</p>
 
 <p class="govuk-body">Another point made by users was that there were more screens. However, there are less screens as currently there are modal windows that open and obscure the view of the main screen.</p>
 
 <p class="govuk-body">Despite early reservations, the majority of tested users liked the changes and said that it would be easy to get used to. Furthermore, even those who disliked it upon first impression, they managed to get through tasks set them within just a few seconds. Proving that it works and is intuitive.</p>
+
+<h3 class="govuk-heading-s subheading govuk-!-margin-bottom-0">Post-testing iteration</h3>
+<p class="govuk-body">The following were some of the issues identified at user testing and needed to be improved upon:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>
+    <strong>Problem</strong>: The lack of colour made counting "vacancies" harder<br />
+    <strong>Fix</strong>: Use a link/button to toggle "Show vacancies only"
+  </li>
+  <li>
+    <strong>Problem</strong>: "Swap" button disappears off screen as users scroll<br />
+    <strong>Fix</strong>: Have a static bar at the top of the screen which scrolls with the user
+  </li>
+  <li>
+    <strong>Problem</strong>: Swap box was too bix for users screens and they missed the validation above the box, when scrolled down screen<br />
+    <strong>Fix</strong>: Put swaps in the static bar at the top of the screen which scrolls with the user
+  </li>
+  <li>
+    <strong>Problem</strong>: After editing a session, users get taken back to a closed calendar<br />
+    <strong>Fix</strong>: Maintain an open calendar and navigate users back to the correct, court venue and week they were on before editing
+  </li>
+</ul>
+
+<p class="govuk-body">Original design - the "Swap" button dissappears as users scroll down.</p>
+<img src="/images/{{ page.image_project }}/iteration-top-bar.png" alt="{{ page.title }}"/>
+<p class="govuk-body">Iterated design with a static bar which scrolls with the user.</p>
+<img src="/images/{{ page.image_project }}/main.png" alt="{{ page.title }}"/>
+
+<p class="govuk-body">Original swap box.</p>
+<img src="/images/{{ page.image_project }}/swap.png" alt="{{ page.title }}"/>
+<p class="govuk-body">Newly designed swaps, showing validation, on a static top bar.</p>
+<img src="/images/{{ page.image_project }}/top-bar-swap.png" alt="{{ page.title }}"/>
 
 <h2 class="govuk-heading-m">Lessons learned</h2>
 <h3 class="govuk-heading-s subheading govuk-!-margin-bottom-0">Users</h3>
