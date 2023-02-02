@@ -3,7 +3,7 @@ title: "Maternity Allowance Discovery and Alpha"
 short-title: "MA Discovery/Alpha"
 organisation: "DWP"
 date: 2022-04-04 00:00:00 +0000
-timescale: "Jul 2021 to Apr 2022"
+timescale: "Jul 2021 &ndash; Apr 2022"
 layout: portfolio-page
 leading_text: "As part of the Environment Agency's digital transformation, I designed the Alpha prototype to allow people to buy a UK fishing licence."
 image_project: "dwp-ma-discovery-alpha"
