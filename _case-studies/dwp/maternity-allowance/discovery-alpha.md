@@ -12,8 +12,6 @@ main_image: "ma-iteration-5.png"
 categories: jekyll update
 ---
 
-<h2 class="govuk-heading-m">Maternity Allowance Discovery and Alpha</h2>
-
 <p class="govuk-body">Maternity Allowance is a payment you can get when you take time off to have a baby.</p>
 
 <p class="govuk-body">A mother might be entitled to claim Maternity Allowance, a government paid, tax-free benefit that is paid for up to 39 weeks, if they are <a href="https://www.gov.uk/maternity-pay-leave/eligibility">ineligible for Statutory Maternity Pay (SMP)</a> from their employer or if they are self-employed.</p>
