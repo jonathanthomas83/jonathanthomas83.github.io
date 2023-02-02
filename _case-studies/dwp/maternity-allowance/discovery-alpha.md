@@ -55,11 +55,11 @@ categories: jekyll update
 
 ![DWP Agent user journey map](/images/{{ page.image_project }}/ma-agent-user-journey-map.png)
 
-<p class="govuk-body"><p class="govuk-body">DWP agents are internal staff who use 16 different systems and processes in order to fully process a maternity allowance claim from start to finish. As the journey map shows, it's a long and outdated process, using many legacy internal systems that are unreliable and elongate the task at hand because of their complexity and cumbersome user interfaces.</p>
+<p class="govuk-body">DWP agents are internal staff who use 16 different systems and processes in order to fully process a maternity allowance claim from start to finish. As the journey map shows, it's a long and outdated process, using many legacy internal systems that are unreliable and elongate the task at hand because of their complexity and cumbersome user interfaces.</p>
 
 <h2 class="govuk-heading-m">Discovery outcome</h2>
 
-As a team, we decided that we would deliver better value to DWP by completely digitising the staff facing elements of the maternity allowance claim process, with the aim of translating that into a citizen facing digital service when we reach the beta phase of the internal system.</p>
+<p class="govuk-body">As a team, we decided that we would deliver better value to DWP by completely digitising the staff facing elements of the maternity allowance claim process, with the aim of translating that into a citizen facing digital service when we reach the beta phase of the internal system.</p>
 
 ![Maternity Allowance vision](/images/{{ page.image_project }}/ma-vision.png)
 
