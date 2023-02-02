@@ -77,7 +77,7 @@ As a team, we decided that we would deliver better value to DWP by completely di
 
 <p class="govuk-body">We carried out over 50 usability sessions with internal DWP staff, creating seven iterations of the prototype, identifying problems and aiming to fix them with each iteration.</p>
 
-![Maternity Allowance iterative design process](/images/{{ page.image_project }}/ma-alpha-design.png.png)
+![Maternity Allowance iterative design process](/images/{{ page.image_project }}/ma-alpha-design.png)
 
 <p class="govuk-body">The main focus turned out to be the summary screen, where the final claim information is confirmed to agents. Instilling trust in the decision that the system had made proved to be the hardest thing to do.</p>
 
@@ -87,7 +87,7 @@ As a team, we decided that we would deliver better value to DWP by completely di
 
 <p class="govuk-body">We explored the use of tabs to try and separate information across numerous screens, but users weren't confident about clicking them, so did little to explore anything beyond the first screen.</p>
 
-![Prototype Iteration 5](/images/{{ page.image_project }}/ma-iteration-5.png.png)
+![Prototype Iteration 5](/images/{{ page.image_project }}/ma-iteration-5.png)
 
 <p class="govuk-body">We explored a familiar looking blue 'key details bar' but ultimately, users missed it so we reverted to a clear 'key details bar' above an anchored navigation bar that followed users down screen as they scrolled, but also allowed them the ability to go directly to the various sections on the screen via anchor links.</p>
 
