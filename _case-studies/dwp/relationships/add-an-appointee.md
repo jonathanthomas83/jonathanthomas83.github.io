@@ -1,12 +1,12 @@
 ---
-title: "Maternity Allowance Discovery and Alpha"
-short-title: "MA Discovery/Alpha"
+title: "DWP Relationships: Add an appointee"
+short-title: "Add an appointee"
 organisation: "DWP"
-date: 2022-04-04 00:00:00 +0000
-timescale: "Jul 2021 &ndash; Apr 2022"
+date: 2022-12-01 00:00:00 +0000
+timescale: "Sep 2021 &ndash; Present"
 layout: portfolio-page
-leading_text: "Digitally transforming a paper based service by fixing convoluted agent processes before moving to a citizen facing service."
-image_project: "dwp-ma-discovery-alpha"
+leading_text: "Identifying and building a missing service for an important process that goes under the radar and causes problems for DWP, its staff and customers."
+image_project: "dwp-relationships-appointee"
 portfolio_image: "ma-iteration-5.png"
 main_image: "ma-iteration-5.png"
 categories: jekyll update
@@ -16,9 +16,9 @@ categories: jekyll update
 
 <p class="govuk-body">Maternity Allowance is a payment you can get when you take time off to have a baby.</p>
 
-<p class="govuk-body">A mother might be entitled to claim Maternity Allowance, a government paid, tax-free benefit that is paid for up to 39 weeks, if they are <a href="https://www.gov.uk/maternity-pay-leave/eligibility">ineligible for Statutory Maternity Pay (SMP)</a> from their employer or if they are self-employed.</p>
+<p class="govuk-body">A mother might be entitled to claim Maternity Allowance, a government paid, tax-free benefit that is paid for up to 39 weeks, if they are [ineligible for Statutory Maternity Pay (SMP)](https://www.gov.uk/maternity-pay-leave/eligibility) from their employer or if they are self-employed.</p>
 
-<p class="govuk-body">There is no digital service for Maternity Allowance, the current process is applied for using a paper form called an <a href="https://www.gov.uk/maternity-allowance/how-to-claim">Maternity Allowance (MA1) claim form</a>.</p>
+<p class="govuk-body">There is no digital service for Maternity Allowance, the current process is applied for using a paper form called an [Maternity Allowance (MA1) claim form](https://www.gov.uk/maternity-allowance/how-to-claim).</p>
 
 ![Maternity Allowance Key Statistics](/images/{{ page.image_project }}/ma-key-statistics.png)
 
@@ -27,12 +27,12 @@ categories: jekyll update
 <p class="govuk-body">As the only Interaction Designer on the project, it was my responsibility to create the following assets for the discovery and alpha phases:</p>
 
 <ul class="govuk-list govuk-list--bullet">
-    <li>User Journey Map's for Citizens and DWP Agents</ul>
-    <li>Service Blueprint (in the absence of a dedicated Service Design resource)</ul>
-    <li>A card sort prototype</ul>
-    <li>Prototype</ul>
-    <li>Various graphics for assessment presentations</ul>
-    <li>Present the Interaction Design findings and iterative improvements at assessments</ul>
+    <li>User Journey Map's for Citizens and DWP Agents</li>
+    <li>Service Blueprint (in the absence of a dedicated Service Design resource)</li>
+    <li>A card sort prototype</li>
+    <li>Prototype</li>
+    <li>Various graphics for assessment presentations</li>
+    <li>Present the Interaction Design findings and iterative improvements at assessments</li>
 </ul>
 
 <h2 class="govuk-heading-m">Card sort prototype</h2>
