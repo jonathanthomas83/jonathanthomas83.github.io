@@ -27,12 +27,12 @@ categories: jekyll update
 <p class="govuk-body">As the only Interaction Designer on the project, it was my responsibility to create the following assets for the discovery and alpha phases:</p>
 
 <ul class="govuk-list govuk-list--bullet">
-    <li>User Journey Map's for Citizens and DWP Agents</ul>
-    <li>Service Blueprint (in the absence of a dedicated Service Design resource)</ul>
-    <li>A card sort prototype</ul>
-    <li>Prototype</ul>
-    <li>Various graphics for assessment presentations</ul>
-    <li>Present the Interaction Design findings and iterative improvements at assessments</ul>
+    <li>User Journey Map's for Citizens and DWP Agents</li>
+    <li>Service Blueprint (in the absence of a dedicated Service Design resource)</li>
+    <li>A card sort prototype</li>
+    <li>Prototype</li>
+    <li>Various graphics for assessment presentations</li>
+    <li>Present the Interaction Design findings and iterative improvements at assessments</li>
 </ul>
 
 <h2 class="govuk-heading-m">Card sort prototype</h2>
