@@ -1,0 +1,11 @@
+.govuk-body, .govuk-list {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700; // or whatever custom weight you prefer
+}
+
+#{".govuk-!-font-weight-bold"} {
+  font-weight: 700;
+}

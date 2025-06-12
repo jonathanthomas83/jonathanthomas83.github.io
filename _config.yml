@@ -70,3 +70,7 @@ exclude:
   - keep/
 
 custom_site_logo_width: true
+
+header_links:
+  - name: "Case studies"
+    url: "/case-studies/"
