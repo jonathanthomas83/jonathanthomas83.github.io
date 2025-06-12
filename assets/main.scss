@@ -1,0 +1,28 @@
+---
+---
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
+
+$govuk-font-family: "Atkinson Hyperlegible", Arial, sans-serif;
+
+@import "govuk-frontend/govuk/all";
+@import "theme-overrides/logo-adjustments";
+
+.govuk-body, .govuk-list {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700; // or whatever custom weight you prefer
+}
+
+#{".govuk-!-font-weight-bold"} {
+  font-weight: 700;
+}
+
+.icon--github svg {
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 0.3em; // Optional: space between icon and text
+  fill: currentColor; // Optional: match text color instead of hardcoded grey
+}

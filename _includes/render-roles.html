@@ -1,0 +1,64 @@
+<ul class="govuk-list">
+  {% for role in site.data.roles %}
+    <li class="govuk-body govuk-!-margin-bottom-6">
+      <span class="govuk-body-s govuk-!-display-block govuk-!-margin-bottom-1">
+      {{ role.start | append: '-01' | date: '%B %Y' }} –
+      {% if role.present %}
+        Present
+      {% elsif role.end %}
+        {{ role.end | append: '-01' | date: '%B %Y' }}
+      {% else %}
+        Unknown end date
+      {% endif %}
+
+      {% if role.present and role.duration == nil %}
+        {% assign start_year = role.start | slice: 0, 4 | plus: 0 %}
+        {% assign start_month = role.start | slice: 5, 2 | plus: 0 %}
+        {% assign end_year = 'now' | date: '%Y' | plus: 0 %}
+        {% assign end_month = 'now' | date: '%m' | plus: 0 %}
+
+        {% assign year_diff = end_year | minus: start_year %}
+        {% assign month_diff = end_month | minus: start_month %}
+        {% if month_diff < 0 %}
+          {% assign year_diff = year_diff | minus: 1 %}
+          {% assign month_diff = month_diff | plus: 12 %}
+        {% endif %}
+
+        {% assign total_months = year_diff | times: 12 | plus: month_diff | plus: 1 %}
+        {% assign years = total_months | divided_by: 12 %}
+        {% assign months = total_months | modulo: 12 %}
+
+          <span aria-hidden="true">
+            {% if years > 0 %}
+              ({{ years }}y{% if months > 0 %} {{ months }}m{% endif %})
+            {% else %}
+              ({{ months }}m)
+            {% endif %}
+          </span>
+
+        <span class="govuk-visually-hidden">
+          Duration:
+          {% if years > 0 %}
+            {{ years }} year{% if years > 1 %}s{% endif %}{% if months > 0 %} {{ months }} month{% if months > 1 %}s{% endif %}{% endif %}
+          {% else %}
+            {{ months }} month{% if months > 1 %}s{% endif %}
+          {% endif %}
+        </span>
+      {% else %}
+        <span aria-hidden="true">
+          ({{ role.duration }})
+        </span>
+        <span class="govuk-visually-hidden">
+          Duration: {{ role.duration }}
+        </span>
+      {% endif %}
+      </span>
+
+      <span class="govuk-!-font-weight-bold">{{ role.role }} at {{ role.organisation }}{% if role.client %} working with {{ role.client }}{% endif %}</span>
+      <span class="govuk-body-s govuk-!-display-block govuk-!-margin-top-1">
+        {{ role.location }} {% if role.contract %} (Contract){% endif %}
+      </span>
+      
+    </li>
+  {% endfor %}
+</ul>
