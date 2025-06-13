@@ -9,5 +9,12 @@ $govuk-font-family: "Atkinson Hyperlegible", Arial, sans-serif;
 
 // This site's custom overrides
 @import "theme-overrides/header";
+@import "theme-overrides/footer";
 @import "theme-overrides/utilities";
 @import "theme-overrides/variables";
+@import "theme-overrides/case-studies";
+@import "theme-overrides/toc";
+
+html {
+  scroll-behavior: smooth;
+}

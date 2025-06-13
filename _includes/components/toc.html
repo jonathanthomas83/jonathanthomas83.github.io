@@ -1,0 +1,38 @@
+<aside class="govuk-grid-column-one-third sticky-wrapper">
+  <div class="toc-container">
+    <h2 class="govuk-heading-s">Contents</h2>
+    <nav class="govuk-body-s" id="toc"></nav>
+  </div>
+</aside>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toc = document.getElementById("toc");
+
+    // Add Introduction link if H1 found in .post-header
+    const h1 = document.querySelector(".post-header h1");
+    if (h1) {
+      const introId = h1.id || "introduction";
+      h1.id = introId;
+
+      const introLink = document.createElement("a");
+      introLink.href = `#${introId}`;
+      introLink.textContent = "Introduction";
+      introLink.className = "govuk-link";
+      toc.appendChild(introLink);
+    }
+
+    // Add H2s from post content
+    const headings = document.querySelectorAll(".post-content h2");
+    headings.forEach((h2, i) => {
+      const id = h2.id || `section-${i}`;
+      h2.id = id;
+
+      const link = document.createElement("a");
+      link.href = `#${id}`;
+      link.textContent = h2.textContent;
+      link.className = "govuk-link";
+      toc.appendChild(link);
+    });
+  });
+</script>

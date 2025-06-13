@@ -1,0 +1,30 @@
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap; // allow wide layout, no wrap
+}
+
+.sticky-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.toc-container {
+  position: sticky;
+  top: 2rem;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+  padding-left: 1rem;
+  border-left: 1px solid govuk-colour("light-grey");
+  align-self: flex-start;
+}
+
+.toc-container nav a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: $govuk-link-colour; // fallback if not using Sass vars
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

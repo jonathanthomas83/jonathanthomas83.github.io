@@ -26,12 +26,20 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jonathanpthomas.com" # the base hostname & protocol for your site
 github_username:  jonathanthomas83
 
-remote_theme: jonathanthomas83/jekyll-govuk@v1.0.1
+remote_theme: jonathanthomas83/jekyll-govuk
 
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+
 
 collections:
   case-studies:
@@ -72,5 +80,7 @@ exclude:
 custom_site_logo_width: true
 
 header_links:
+  - name: "Home"
+    url: "/"
   - name: "Case studies"
     url: "/case-studies/"

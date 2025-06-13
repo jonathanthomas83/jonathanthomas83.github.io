@@ -1,25 +1,24 @@
 ---
-permalink: /404.html
 layout: default
+title: Page not found
+permalink: /404.html
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<div class="govuk-width-container">
+  <main class="govuk-main-wrapper" id="main-content" role="main">
+    <h1 class="govuk-heading-xl">Page not found</h1>
 
-<div class="container">
-  <h1>404</h1>
+    <p class="govuk-body">
+      If you typed the web address, check it is correct.
+    </p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+    <p class="govuk-body">
+      If you pasted the web address, check you copied the entire address.
+    </p>
+
+    <p class="govuk-body">
+      You can go back to the <a class="govuk-link" href="{{ '/' | relative_url }}">homepage</a> or
+      <a class="govuk-link" href="javascript:history.back()">return to the previous page</a>.
+    </p>
+  </main>
 </div>
