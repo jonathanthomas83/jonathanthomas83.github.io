@@ -1,30 +1,37 @@
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap; // allow wide layout, no wrap
+/* Let it appear full-width on mobile, sticky on desktop */
+#toc-wrapper {
+  position: relative;
+  margin-bottom: 2rem; // spacing below TOC on mobile
 }
 
-.sticky-wrapper {
-  display: flex;
-  flex-direction: column;
+@media (min-width: 40.0625em) {
+  #toc-wrapper {
+    position: sticky;
+    top: 2rem;
+    align-self: flex-start;
+    height: fit-content;
+    margin-bottom: 0;
+  }
+
+  #toc-inner {
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    padding-left: 1rem;
+    border-left: 1px solid govuk-colour("light-grey");
+  }
 }
 
-.toc-container {
-  position: sticky;
-  top: 2rem;
-  max-height: calc(100vh - 4rem);
-  overflow-y: auto;
-  padding-left: 1rem;
-  border-left: 1px solid govuk-colour("light-grey");
-  align-self: flex-start;
-}
-
-.toc-container nav a {
+#toc-inner nav a {
   display: block;
   margin-bottom: 0.5rem;
-  color: $govuk-link-colour; // fallback if not using Sass vars
   text-decoration: none;
+}
 
-  &:hover {
-    text-decoration: underline;
-  }
+#toc-inner nav a:hover {
+  text-decoration: underline;
+}
+
+/* Ensure parent container doesn't restrict sticky */
+.govuk-grid-row {
+  overflow: visible;
 }

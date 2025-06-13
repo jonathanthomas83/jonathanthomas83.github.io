@@ -2,9 +2,8 @@
 layout: default
 ---
 
-<div class="govuk-grid-row flex-container">
+<div class="govuk-grid-row">
   <article class="govuk-grid-column-two-thirds govuk-body govuk-!-margin-bottom-9">
-
     <header class="post-header">
       <h1 class="govuk-heading-xl" id="introduction">{{ page.title }}</h1>
       <p class="govuk-body govuk-!-margin-bottom-0">{{ page.organisation }}</p>
@@ -19,5 +18,36 @@ layout: default
   </article>
 
   {% include components/toc.html %}
-
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const container = document.getElementById("toc");
+    if (!container) return;
+
+    const h1 = document.querySelector(".post-header h1");
+    if (h1) {
+      const id = h1.id || "introduction";
+      h1.id = id;
+
+      const link = document.createElement("a");
+      link.href = `#${id}`;
+      link.textContent = "Introduction";
+      link.className = "govuk-link";
+      container.appendChild(link);
+    }
+
+    const h2s = document.querySelectorAll(".post-content h2");
+    h2s.forEach((h2, i) => {
+      const id = h2.id || `section-${i}`;
+      h2.id = id;
+
+      const link = document.createElement("a");
+      link.href = `#${id}`;
+      link.textContent = h2.textContent;
+      link.className = "govuk-link";
+      container.appendChild(link);
+    });
+  });
+</script>
+
