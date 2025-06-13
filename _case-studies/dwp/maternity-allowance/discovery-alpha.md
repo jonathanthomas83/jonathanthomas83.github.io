@@ -13,9 +13,6 @@ categories: jekyll update
 use_grid: false
 back_link_url: /case-studies/
 back_link_text: Back to Case Studies
-permalink: /case-studies/maternity-allowance-discovery-and-alpha/
-redirect_from:
-  - /case-studies/dwp/maternity-allowance/discovery-alpha/
 ---
 
 Maternity Allowance is a payment you can get when you take time off to have a baby.
