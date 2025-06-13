@@ -1,0 +1,52 @@
+- organisation: Home Office
+  role: Lead Interaction Designer
+  location: London and remote working
+  start: 2023-03
+  present: true
+  contract: true
+
+- organisation: Capgemini
+  role: Lead Interaction Designer
+  client: DWP
+  location: Newcastle and remote working
+  start: 2020-09
+  end: 2023-03
+  duration: 2y 6m
+
+- organisation: CGI
+  role: Lead UX Specialist
+  client: HMCTS
+  location: London and remote working
+  start: 2018-09
+  end: 2020-09
+  duration: 2y
+
+- organisation: Companies House
+  role: Lead UX Designer/Content Designer
+  location: Cardiff
+  start: 2016-09
+  end: 2018-08
+  duration: 2y
+  contract: true
+
+- organisation: Environment Agency
+  role: UX Designer/Content Designer
+  location: Bristol
+  start: 2016-01
+  end: 2016-08
+  duration: 8m
+  contract: true
+
+- organisation: Intellectual Property Office
+  role: Senior UX Designer
+  location: Newport
+  start: 2015-04
+  end: 2015-12
+  duration: 7m
+
+- organisation: Companies House
+  role: Senior Web/UX Designer
+  location: Cardiff
+  start: 2007-10
+  end: 2015-03
+  duration: 7y 6m

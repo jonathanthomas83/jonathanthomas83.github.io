@@ -5,30 +5,45 @@ permalink: /case-studies/
 weight: 3
 ---
 
-<div class="govuk-grid-column-two-thirds menulist">
+
   <ul class="govuk-list">
-    {% assign items = site.case-studies | sort: 'date' %}
-    {% for case-studies in site.case-studies reversed %}
-      <li class="govuk-!-margin-bottom-3">
-        <img src="/images/{{ case-studies.image_project }}/{{ case-studies.portfolio_image }}" alt="{{ case-studies.title }}"/>
-        <span class="timescale govuk-body govuk-!-font-size-19">{{ case-studies.timescale }}: {{ case-studies.organisation }}</span><br />
-        <a class="govuk-body govuk-!-font-size-27" href="{{ case-studies.url | prepend: site.baseurl }}">{{ case-studies.short-title }}</a>
+    {% assign items = site.case-studies | sort: 'date' | reverse %}
+    {% for cs in items %}
+      <li class="govuk-!-margin-bottom-6">
+        <div class="case-study-item">
+          <span class="govuk-body govuk-!-font-size-19 govuk-!-display-block">
+            {{ cs.timescale }}: {{ cs.organisation }}
+          </span>
+          <a 
+            class="govuk-link govuk-!-font-size-24 govuk-!-font-weight-bold govuk-!-display-block govuk-!-margin-bottom-2"
+            href="{{ cs.url | relative_url }}">
+            {{ cs.title }}
+          </a>
+          {% if cs.portfolio_image %}
+            <img 
+              src="/assets/images/{{ cs.image_project }}/{{ cs.portfolio_image }}" 
+              alt="{{ cs.title }}" 
+              class="case-study-image" 
+            />
+          {% endif %}
+        </div>
       </li>
     {% endfor %}
   </ul>
 </div>
 
-<div class="govuk-grid-column-one-third">
-  <h2 class="govuk-heading-m">Blog</h2>
-
-  <ul class="govuk-list">
+  <!-- Blog links -->
+  <div class="govuk-grid-column-one-third">
+    <h2 class="govuk-heading-m">Blog</h2>
+    <ul class="govuk-list">
       <li class="govuk-!-margin-bottom-3">
-        <!--span class="timescale govuk-body govuk-!-font-size-16">Aug 2018</span><br /-->
-        <a href="https://uxdesign.cc/10-things-you-can-do-to-get-better-at-facilitating-user-testing-eb29e81f17fd">10 things you can do to get better at facilitating user testing</a>
+        <a class="govuk-link" href="https://uxdesign.cc/10-things-you-can-do-to-get-better-at-facilitating-user-testing-eb29e81f17fd">
+          10 things you can do to get better at facilitating user testing
+        </a>
       </li>
       <li class="govuk-!-margin-bottom-3">
-        <!--span class="timescale govuk-body govuk-!-font-size-16">Aug 2017</span><br /-->
-        <a href="https://uxdesign.cc/collaborating-in-ux-design-dont-be-afraid-to-share-8c19c41d2f">Collaborating in UX design: don’t be afraid to share</a>
+        <a class="govuk-link" href="https://uxdesign.cc/collaborating-in-ux-design-dont-be-afraid-to-share-8c19c41d2f">
+          Collaborating in UX design: don’t be afraid to share
+        </a>
       </li>
-  </ul>
-</div>
+    </ul>

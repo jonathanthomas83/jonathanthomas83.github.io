@@ -1,0 +1,8 @@
+<ul class="govuk-list">
+  {% for item in site.data.training %}
+    <li class="govuk-!-margin-bottom-3">
+      <span class="govuk-body-s govuk-!-display-block govuk-!-font-weight-bold govuk-!-margin-bottom-1">{{ item.period }}</span>
+      {{ item.description }}
+    </li>
+  {% endfor %}
+</ul>

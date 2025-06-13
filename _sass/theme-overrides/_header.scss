@@ -1,0 +1,50 @@
+// Header styling override
+.govuk-header {
+  background-color: #1b1b1b; // dark charcoal
+  border-bottom: 3px solid #00bfae; // aqua highlight
+}
+
+.govuk-header__container {
+  border-bottom: none !important;
+  margin-bottom: 0; // Optional: reset spacing if needed
+}
+
+.govuk-header__content {
+  width: auto;
+  float: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.govuk-header__navigation {
+  float: right;
+  margin-top: 0.5rem;
+
+  .govuk-header__navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .govuk-header__navigation-item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .govuk-header__link {
+    font-weight: normal; // Unbold
+    text-decoration: none;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+

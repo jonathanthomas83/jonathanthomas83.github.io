@@ -1,0 +1,32 @@
+.case-study-item {
+  border-bottom: 1px solid #b1b4b6;
+  padding-bottom: 1.5rem;
+}
+
+.case-study-image,
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;         // adds soft corners
+  margin: 0.75rem 0 2rem 0;   // top and bottom margin for flow
+  padding: 0;                 // remove if not using border/frame
+  border: 1px solid govuk-colour("light-grey");
+}
+
+.post-content p {
+  @extend .govuk-body;
+  margin-bottom: 1.5rem;
+}
+.post-content h2 {
+  @extend .govuk-heading-m;
+  margin-top: 2rem;
+}
+.post-content ul {
+  @extend .govuk-list;
+  @extend .govuk-list--bullet;
+  margin-bottom: 1.5rem;
+}
+.post-content a {
+  @extend .govuk-link;
+}

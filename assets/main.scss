@@ -1,0 +1,20 @@
+---
+---
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
+
+$govuk-font-family: "Atkinson Hyperlegible", Arial, sans-serif;
+
+@import "govuk-frontend/govuk/all";
+@import "theme-overrides/logo-adjustments";
+
+// This site's custom overrides
+@import "theme-overrides/header";
+@import "theme-overrides/footer";
+@import "theme-overrides/utilities";
+@import "theme-overrides/variables";
+@import "theme-overrides/case-studies";
+@import "theme-overrides/toc";
+
+html {
+  scroll-behavior: smooth;
+}
